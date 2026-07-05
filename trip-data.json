@@ -1,0 +1,382 @@
+{
+  "meta": {
+    "tripId": "san-marino-2027",
+    "title": "San Marino 2027",
+    "subtitle": "A Chronicle of Towers, Coastlines & the World's Oldest Republic",
+    "dates": { "start": "2027-05-14", "end": "2027-05-22" },
+    "travelStyle": ["history", "museums", "shopping", "medieval towns", "coastal Italy", "relaxed pace", "train and bus"],
+    "currency": "EUR",
+    "openingNarrative": "Nine days. Seven cities. One realm stitched together by towers, coastlines, and the long memory of empires. From Bologna's shadowed porticoes to the wave-worn stones of Pesaro, the road you walk has been walked by emperors, poets, and one very stubborn stonemason who declared a mountaintop free forever. Turn the page, wanderer — San Marino 2027 awaits."
+  },
+
+  "cities": [
+    {
+      "id": "bologna",
+      "name": "Bologna",
+      "region": "Emilia-Romagna",
+      "coords": { "x": 10, "y": 15 },
+      "arrival": "2027-05-14",
+      "departure": "2027-05-16",
+      "description": "Bologna the Learned, Bologna the Red — a city of brick-red porticoes, one of the oldest universities in continuous operation, and a skyline still pierced by two leaning medieval towers. Days here move at the pace of a long lunch.",
+      "highlights": [
+        "Torre degli Asinelli & Torre Garisenda",
+        "Piazza Maggiore & the Basilica di San Petronio",
+        "The university quarter, tracing its roots to 1088",
+        "The porticoes — covered walkways said to stretch dozens of kilometers",
+        "Quadrilatero food market"
+      ],
+      "transportToNext": "Train to Ravenna, roughly 1–1.5 hours."
+    },
+    {
+      "id": "ravenna",
+      "name": "Ravenna",
+      "region": "Emilia-Romagna",
+      "coords": { "x": 55, "y": 10 },
+      "arrival": "2027-05-16",
+      "departure": "2027-05-16",
+      "description": "Once capital of the Western Roman Empire and later of Byzantine Italy, Ravenna hides some of the finest Byzantine mosaics outside Istanbul behind unassuming brick walls.",
+      "highlights": [
+        "Basilica of San Vitale",
+        "Mausoleum of Galla Placidia",
+        "Dante Alighieri's tomb"
+      ],
+      "transportToNext": "Train to Rimini, roughly 1 hour."
+    },
+    {
+      "id": "rimini",
+      "name": "Rimini",
+      "region": "Emilia-Romagna",
+      "coords": { "x": 78, "y": 35 },
+      "arrival": "2027-05-16",
+      "departure": "2027-05-21",
+      "description": "Beyond its reputation as a modern beach resort, Rimini's old town holds two millennia of Roman history — a bridge that has carried traffic since the age of emperors, and an arch older than most of Europe's cathedrals.",
+      "highlights": [
+        "Ponte di Tiberio (Tiberius Bridge)",
+        "Arco d'Augusto (Arch of Augustus)",
+        "Piazza Tre Martiri",
+        "The Adriatic promenade"
+      ],
+      "transportToNext": "Base for day-trips to San Marino, San Leo, and Gradara by bus."
+    },
+    {
+      "id": "san-marino",
+      "name": "San Marino",
+      "region": "Republic of San Marino",
+      "coords": { "x": 68, "y": 50 },
+      "arrival": "2027-05-18",
+      "departure": "2027-05-18",
+      "description": "A mountaintop republic barely 60 square kilometers, San Marino has governed itself, by its own telling, since a stonemason named Marinus climbed Monte Titano in the year 301. Whatever the truth of the legend, it remains one of the world's smallest and oldest states.",
+      "highlights": [
+        "The Three Towers of Monte Titano — Guaita, Cesta, and Montale",
+        "Piazza della Libertà",
+        "Duty-free shopping streets"
+      ],
+      "transportToNext": "Bus or taxi to San Leo, roughly 30–40 minutes."
+    },
+    {
+      "id": "san-leo",
+      "name": "San Leo",
+      "region": "Emilia-Romagna",
+      "coords": { "x": 55, "y": 62 },
+      "arrival": "2027-05-19",
+      "departure": "2027-05-19",
+      "description": "A fortress-village balanced on a sheer rock outcrop, San Leo feels like the setting of a fairy tale — fittingly, since its Rocca once held the self-styled alchemist and occultist Count Cagliostro as a prisoner.",
+      "highlights": [
+        "Rocca di San Leo",
+        "The medieval cathedral and parish church",
+        "Sweeping views over the Marecchia valley"
+      ],
+      "transportToNext": "Onward toward Gradara, roughly 45–60 minutes."
+    },
+    {
+      "id": "gradara",
+      "name": "Gradara",
+      "region": "Marche",
+      "coords": { "x": 88, "y": 48 },
+      "arrival": "2027-05-20",
+      "departure": "2027-05-20",
+      "description": "One of Italy's best-preserved medieval castles, Gradara is wrapped in the legend of Paolo and Francesca — the doomed lovers Dante placed among the damned in his Inferno.",
+      "highlights": [
+        "Rocca di Gradara",
+        "The double ring of walls encircling the village",
+        "Artisan workshops along the old streets"
+      ],
+      "transportToNext": "Onward to Pesaro, roughly 30 minutes."
+    },
+    {
+      "id": "pesaro",
+      "name": "Pesaro",
+      "region": "Marche",
+      "coords": { "x": 95, "y": 58 },
+      "arrival": "2027-05-21",
+      "departure": "2027-05-22",
+      "description": "A gentler coastal town where the composer Gioachino Rossini was born, Pesaro closes the journey with sea air, small museums, and unhurried shopping streets.",
+      "highlights": [
+        "Rossini's birthplace",
+        "Piazza del Popolo",
+        "The Pesaro seafront"
+      ],
+      "transportToNext": "Journey's end."
+    }
+  ],
+
+  "route": ["bologna", "ravenna", "rimini", "san-marino", "san-leo", "gradara", "pesaro"],
+
+  "days": [
+    {
+      "day": 1,
+      "date": "2027-05-14",
+      "cityId": "bologna",
+      "title": "Arrival in the City of Towers",
+      "summary": "Arrive in Bologna, settle in beneath the porticoes, and take a slow first walk into the realm.",
+      "activities": [
+        { "time": "15:00", "description": "Arrive at Bologna Centrale and make your way to your lodging." },
+        { "time": "17:00", "description": "Wander into Piazza Maggiore as the light turns gold." },
+        { "time": "19:30", "description": "Dinner in the university quarter — a first taste of Emilia-Romagna." }
+      ],
+      "questIds": []
+    },
+    {
+      "day": 2,
+      "date": "2027-05-15",
+      "cityId": "bologna",
+      "title": "Towers, Porticoes & the Ancient Market",
+      "summary": "A full day exploring Bologna's skyline, arcades, and edible treasures.",
+      "activities": [
+        { "time": "09:00", "description": "Climb the Torre degli Asinelli for a view over the rooftops." },
+        { "time": "11:00", "description": "Wander the porticoes toward the university quarter." },
+        { "time": "13:00", "description": "Lunch and browsing at the Quadrilatero market." },
+        { "time": "16:00", "description": "Free time for shopping or a second coffee in Piazza Santo Stefano." }
+      ],
+      "questIds": ["q-bol-1", "q-bol-2", "q-bol-3"]
+    },
+    {
+      "day": 3,
+      "date": "2027-05-16",
+      "cityId": "ravenna",
+      "title": "Mosaics and the Road South",
+      "summary": "A day-trip to Ravenna's shimmering basilicas, then onward by train to the coast at Rimini.",
+      "activities": [
+        { "time": "08:30", "description": "Train from Bologna to Ravenna." },
+        { "time": "10:00", "description": "Visit the Basilica of San Vitale and its mosaics." },
+        { "time": "12:00", "description": "Pay respects at Dante's tomb." },
+        { "time": "15:00", "description": "Train onward to Rimini; check into your coastal lodging." }
+      ],
+      "questIds": ["q-rav-1", "q-rav-2"]
+    },
+    {
+      "day": 4,
+      "date": "2027-05-17",
+      "cityId": "rimini",
+      "title": "Roman Stones, Adriatic Air",
+      "summary": "A relaxed day among Rimini's Roman remains and seafront.",
+      "activities": [
+        { "time": "10:00", "description": "Cross the Tiberius Bridge into the old town." },
+        { "time": "11:00", "description": "Find the Arch of Augustus." },
+        { "time": "13:00", "description": "Long lunch near Piazza Tre Martiri." },
+        { "time": "17:00", "description": "Unhurried walk along the promenade." }
+      ],
+      "questIds": ["q-rim-1", "q-rim-2", "q-rim-3"]
+    },
+    {
+      "day": 5,
+      "date": "2027-05-18",
+      "cityId": "san-marino",
+      "title": "The World's Oldest Republic",
+      "summary": "Bus up into the hills to the tiny mountaintop republic of San Marino.",
+      "activities": [
+        { "time": "09:00", "description": "Bus from Rimini to San Marino." },
+        { "time": "10:30", "description": "Climb between the three towers of Monte Titano." },
+        { "time": "13:00", "description": "Lunch with a view over two seas, on a clear day." },
+        { "time": "15:00", "description": "Browse the shops of the old city." },
+        { "time": "18:00", "description": "Bus back to Rimini." }
+      ],
+      "questIds": ["q-sm-1", "q-sm-2", "q-sm-3"]
+    },
+    {
+      "day": 6,
+      "date": "2027-05-19",
+      "cityId": "san-leo",
+      "title": "The Fortress on the Rock",
+      "summary": "A quieter day-trip to the dramatic clifftop fortress of San Leo.",
+      "activities": [
+        { "time": "10:00", "description": "Arrive in San Leo and climb to the Rocca." },
+        { "time": "11:30", "description": "Find the cell said to have held Count Cagliostro." },
+        { "time": "13:00", "description": "Lunch in the medieval village below the fortress." }
+      ],
+      "questIds": ["q-sl-1", "q-sl-2"]
+    },
+    {
+      "day": 7,
+      "date": "2027-05-20",
+      "cityId": "gradara",
+      "title": "Castle of the Star-Crossed",
+      "summary": "Walk the ramparts of Gradara, said to be the setting of Dante's most famous doomed lovers.",
+      "activities": [
+        { "time": "10:00", "description": "Bus to Gradara and enter through the village gate." },
+        { "time": "11:00", "description": "Walk the fortress ramparts." },
+        { "time": "13:00", "description": "Lunch in the piazza below the castle walls." },
+        { "time": "15:00", "description": "Browse artisan shops along the medieval lanes." }
+      ],
+      "questIds": ["q-gr-1", "q-gr-2"]
+    },
+    {
+      "day": 8,
+      "date": "2027-05-21",
+      "cityId": "pesaro",
+      "title": "The Maestro's Shore",
+      "summary": "Move south along the coast to Pesaro, birthplace of Rossini.",
+      "activities": [
+        { "time": "10:00", "description": "Train from Rimini to Pesaro." },
+        { "time": "12:00", "description": "Settle into your final lodging." },
+        { "time": "15:00", "description": "Visit sites connected to Gioachino Rossini." },
+        { "time": "18:00", "description": "Evening walk on the beach." }
+      ],
+      "questIds": ["q-pes-1"]
+    },
+    {
+      "day": 9,
+      "date": "2027-05-22",
+      "cityId": "pesaro",
+      "title": "Last Light on the Adriatic",
+      "summary": "A final unhurried morning before the journey home.",
+      "activities": [
+        { "time": "09:30", "description": "One last museum or market visit." },
+        { "time": "11:30", "description": "Final round of shopping for gifts and souvenirs." },
+        { "time": "14:00", "description": "Depart Pesaro for home." }
+      ],
+      "questIds": ["q-pes-2", "q-pes-3"]
+    }
+  ],
+
+  "quests": [
+    { "id": "q-bol-1", "cityId": "bologna", "type": "main", "title": "Climb the Leaning Towers", "description": "Ascend the Torre degli Asinelli for a view over Bologna's red rooftops.", "reward": "A memory of the city from above." },
+    { "id": "q-bol-2", "cityId": "bologna", "type": "side", "title": "Wander the Endless Porticoes", "description": "Walk beneath Bologna's covered walkways, said to stretch for dozens of kilometers through the city.", "reward": "Dry shoes, whatever the weather." },
+    { "id": "q-bol-3", "cityId": "bologna", "type": "side", "title": "Feast at the Ancient Market", "description": "Visit the Quadrilatero market stalls for mortadella, tortellini, and parmesan.", "reward": "A well-earned appetite for the road ahead." },
+
+    { "id": "q-rav-1", "cityId": "ravenna", "type": "main", "title": "Behold the Byzantine Mosaics", "description": "Step inside the Basilica of San Vitale to see its shimmering gold mosaics.", "reward": "Proof that patience and gold leaf outlast empires." },
+    { "id": "q-rav-2", "cityId": "ravenna", "type": "side", "title": "Pay Respects to the Poet", "description": "Visit Dante Alighieri's tomb, his final resting place after exile from Florence.", "reward": "A quiet moment with the Inferno's author." },
+
+    { "id": "q-rim-1", "cityId": "rimini", "type": "main", "title": "Cross the Bridge of Emperors", "description": "Walk the Ponte di Tiberio, standing since Roman times.", "reward": "Two thousand years of foot traffic, and counting." },
+    { "id": "q-rim-2", "cityId": "rimini", "type": "side", "title": "Salute the Arch of Augustus", "description": "Find one of the oldest surviving Roman arches, still marking the old city gate.", "reward": "A small bow to the Emperor Augustus." },
+    { "id": "q-rim-3", "cityId": "rimini", "type": "side", "title": "Stroll the Adriatic Shore", "description": "A relaxed beachfront walk along Rimini's promenade.", "reward": "Sea air and an unhurried heartbeat." },
+
+    { "id": "q-sm-1", "cityId": "san-marino", "type": "main", "title": "Ascend to the Three Towers", "description": "Climb to Guaita, Cesta, and Montale atop Monte Titano.", "reward": "A view over a republic older than most nations." },
+    { "id": "q-sm-2", "cityId": "san-marino", "type": "side", "title": "Trade in the Republic", "description": "Browse San Marino's shops for local crafts, ceramics, or a souvenir stamp or coin.", "reward": "A trinket from the world's oldest republic." },
+    { "id": "q-sm-3", "cityId": "san-marino", "type": "side", "title": "Enter the World's Oldest Republic", "description": "Learn the legend of Saint Marinus, said to have founded the republic in 301 AD.", "reward": "A story worth retelling at home." },
+
+    { "id": "q-sl-1", "cityId": "san-leo", "type": "main", "title": "Storm the Fortress", "description": "Explore the Rocca di San Leo, perched on its sheer cliff.", "reward": "Legs tired, view unforgettable." },
+    { "id": "q-sl-2", "cityId": "san-leo", "type": "side", "title": "Find the Alchemist's Cell", "description": "Locate the cell said to have imprisoned Count Cagliostro.", "reward": "A shiver, whatever the season." },
+
+    { "id": "q-gr-1", "cityId": "gradara", "type": "main", "title": "Walk the Ramparts", "description": "Circle the walls of the Rocca di Gradara.", "reward": "A full loop of one of Italy's best-preserved castles." },
+    { "id": "q-gr-2", "cityId": "gradara", "type": "side", "title": "Remember Paolo and Francesca", "description": "Recall the doomed lovers Dante placed in his Inferno, said to have met their fate within these walls.", "reward": "A tragic tale, well told." },
+
+    { "id": "q-pes-1", "cityId": "pesaro", "type": "main", "title": "Honor the Maestro", "description": "Visit sites connected to composer Gioachino Rossini, born in Pesaro.", "reward": "A tune stuck in your head for the flight home." },
+    { "id": "q-pes-2", "cityId": "pesaro", "type": "side", "title": "Browse the Boutiques", "description": "One last round of shopping before departure.", "reward": "Gifts for whoever fed your cat." },
+    { "id": "q-pes-3", "cityId": "pesaro", "type": "side", "title": "Watch the Adriatic Sunset", "description": "A closing ritual on the beach before the journey home.", "reward": "The last page of this chapter, closed gently." }
+  ],
+
+  "packing": [
+    {
+      "id": "documents",
+      "category": "Documents & Money",
+      "items": [
+        { "id": "doc-id", "name": "Passport / ID" },
+        { "id": "doc-tickets", "name": "Boarding passes and train tickets" },
+        { "id": "doc-insurance", "name": "Travel insurance copy" },
+        { "id": "doc-cards", "name": "Credit and debit cards" },
+        { "id": "doc-cash", "name": "Some cash in euros" }
+      ]
+    },
+    {
+      "id": "clothing",
+      "category": "Clothing",
+      "items": [
+        { "id": "clo-shoes", "name": "Comfortable walking shoes" },
+        { "id": "clo-layers", "name": "Light layers" },
+        { "id": "clo-rain", "name": "Light rain jacket" },
+        { "id": "clo-hat", "name": "Sun hat" },
+        { "id": "clo-modest", "name": "A shoulder-covering layer for churches and basilicas" },
+        { "id": "clo-swim", "name": "Swimwear for the Adriatic coast" }
+      ]
+    },
+    {
+      "id": "health",
+      "category": "Toiletries & Health",
+      "items": [
+        { "id": "hea-sunscreen", "name": "Sunscreen" },
+        { "id": "hea-firstaid", "name": "Basic first-aid kit" },
+        { "id": "hea-meds", "name": "Personal medication" }
+      ]
+    },
+    {
+      "id": "tech",
+      "category": "Tech",
+      "items": [
+        { "id": "tec-phone", "name": "Phone and charger" },
+        { "id": "tec-adapter", "name": "Power adapter, if needed" },
+        { "id": "tec-bank", "name": "Power bank" },
+        { "id": "tec-camera", "name": "Camera" }
+      ]
+    },
+    {
+      "id": "extras",
+      "category": "Trip Extras",
+      "items": [
+        { "id": "ext-bottle", "name": "Reusable water bottle" },
+        { "id": "ext-daypack", "name": "Small daypack" },
+        { "id": "ext-notebook", "name": "Notebook for the journal" },
+        { "id": "ext-maps", "name": "Offline maps or a guidebook" }
+      ]
+    }
+  ],
+
+  "budget": {
+    "currency": "EUR",
+    "note": "These are starting estimates only — edit them in trip-data.json to match your own research, or simply track your actual spend here as you go.",
+    "categories": [
+      { "id": "lodging", "name": "Lodging", "estimate": 700 },
+      { "id": "transport", "name": "Trains & Buses", "estimate": 120 },
+      { "id": "food", "name": "Food & Wine", "estimate": 350 },
+      { "id": "museums", "name": "Museums & Tickets", "estimate": 100 },
+      { "id": "shopping", "name": "Shopping & Souvenirs", "estimate": 150 },
+      { "id": "misc", "name": "Miscellaneous", "estimate": 80 }
+    ]
+  },
+
+  "achievements": [
+    { "id": "a-bologna", "title": "Tower Conqueror", "description": "Complete every quest in Bologna.", "criteria": { "type": "quests_completed_in_city", "cityId": "bologna" } },
+    { "id": "a-ravenna", "title": "Mosaic Pilgrim", "description": "Complete every quest in Ravenna.", "criteria": { "type": "quests_completed_in_city", "cityId": "ravenna" } },
+    { "id": "a-san-marino", "title": "Guardian of Titano", "description": "Complete every quest in San Marino.", "criteria": { "type": "quests_completed_in_city", "cityId": "san-marino" } },
+    { "id": "a-wanderer", "title": "Realm Wanderer", "description": "Mark every city chapter as visited.", "criteria": { "type": "cities_visited_all" } },
+    { "id": "a-questmaster", "title": "Quest Master", "description": "Complete every quest in the realm.", "criteria": { "type": "quests_completed_all" } },
+    { "id": "a-packer", "title": "Master Packer", "description": "Check off your entire packing list.", "criteria": { "type": "packing_complete_all" } },
+    { "id": "a-purse", "title": "Keeper of the Purse", "description": "Finish the journey within your total budget.", "criteria": { "type": "budget_within_total" } },
+    { "id": "a-chronicle", "title": "Chronicle Keeper", "description": "Write at least 5 journal entries.", "criteria": { "type": "journal_entries_count", "target": 5 } },
+    { "id": "a-decisive", "title": "Decisive Wanderer", "description": "Log at least 3 decisions along the way.", "criteria": { "type": "decisions_logged_count", "target": 3 } }
+  ],
+
+  "seed": {
+    "journalEntries": [
+      {
+        "id": "seed-j1",
+        "date": "2027-04-01",
+        "cityId": null,
+        "title": "Packing the satchel",
+        "mood": "excited",
+        "text": "Six weeks out. I keep re-reading about a mountain republic no bigger than a small town that has, by its own account, governed itself for over 1700 years. Hard to picture until I'm standing on it."
+      }
+    ],
+    "decisions": [
+      {
+        "id": "seed-d1",
+        "date": "2027-03-15",
+        "cityId": null,
+        "title": "Trains and buses over a rental car",
+        "options": ["Rent a car for the whole loop", "Rely on regional trains and local buses"],
+        "choice": "Rely on regional trains and local buses",
+        "reasoning": "The distances are short, parking in the old towns looked painful, and a slower pace suits this trip better than a steering wheel."
+      }
+    ]
+  }
+}

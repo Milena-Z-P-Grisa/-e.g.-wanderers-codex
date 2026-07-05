@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="twilight" data-fontsize="medium">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Wanderer's Codex</title>
+<meta name="description" content="A reusable, game-like travel journal. Load any trip-data.json and travel through it as a chronicle of chapters, quests, and choices.">
+
+<!-- Optional display/body fonts. The app is fully styled with serif fallbacks
+     (Georgia / Palatino) if this can't be reached, so it still works offline
+     or on a network with restricted domains. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Ambient backdrop: pure CSS, no images required -->
+<div class="backdrop" aria-hidden="true">
+  <div class="backdrop-vignette"></div>
+  <div class="backdrop-stars"></div>
+</div>
+
+<div id="app">
+
+  <header id="app-header" class="app-header" hidden>
+    <button type="button" id="btn-back-menu" class="rune-btn" data-action="go-menu" aria-label="Return to main menu">
+      <span class="rune-btn-glyph">☙</span>
+    </button>
+    <div class="app-header-title">
+      <span id="header-eyebrow" class="header-eyebrow"></span>
+      <h1 id="header-title" class="header-title">The Wanderer's Codex</h1>
+    </div>
+    <button type="button" id="btn-header-settings" class="rune-btn" data-action="go-settings" aria-label="Open settings">
+      <span class="rune-btn-glyph">⚙</span>
+    </button>
+  </header>
+
+  <main id="app-content" class="app-content" aria-live="polite">
+    <!-- All screens are rendered into this element by app.js -->
+  </main>
+
+  <nav id="app-tray" class="app-tray" hidden aria-label="Quick navigation">
+    <!-- Populated by app.js with icon shortcuts to core screens -->
+  </nav>
+
+</div>
+
+<div id="toast-container" class="toast-container" aria-live="assertive"></div>
+
+<input type="file" id="file-input-trip" accept="application/json,.json" hidden>
+<input type="file" id="file-input-progress" accept="application/json,.json" hidden>
+
+<script src="app.js" defer></script>
+</body>
+</html>
